@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <section>
+        <input type="number"  placeholder="Ingrese el primer numero" id="n1">
+        <input type="number"  placeholder="Ingrese el segundo numero" id="n2">
+        <select name="Operacion" id="Op">
+            <option value="-">Restar</option>
+            <option value="+">Sumar</option>
+            <option value="/">Dividir</option>
+            <option value="*">Multiplicar</option>
+        </select>
+        <button id="resultado" onclick="realizar()">=</button>
+        <h1 id="result"></h1>
+    </section>
+    <section>
+        <button id="0" onclick="realizar2()">0</button>
+        <button id="1" onclick="realizar2()">1</button>
+        <button id="2" onclick="realizar2()">2</button>
+        <button id="3" onclick="realizar2()">3</button>
+        <button id="4" onclick="realizar2()">4</button>
+        <button id="5" onclick="realizar2()">5</button>
+        <button id="6" onclick="realizar2()">6</button>
+        <button id="7" onclick="realizar2()">7</button>
+        <button id="8" onclick="realizar2()">8</button>
+        <button id="9" onclick="realizar2()">9</button>
+        <button id="-" onclick="realizar2()">-</button>
+        <button id="+" onclick="realizar2()">+</button>
+        <button id="*" onclick="realizar2()">*</button>
+        <button id="/" onclick="realizar2()">/</button>
+        <button id="=" onclick="realizar2()">=</button>
+        <button id="<=" onclick="realizar2()"><=</button>
+        <button id="M+" onclick="realizar2()">M+</button>
+        <button id="M-" onclick="realizar2()">M-</button>
+    </section>
+        
+    <script src="App.js"></script>
+</body>
+</html>
