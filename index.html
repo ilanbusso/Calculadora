@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <section>
+    <section class="realizar 1">
         <input type="number"  placeholder="Ingrese el primer numero" id="n1">
         <input type="number"  placeholder="Ingrese el segundo numero" id="n2">
         <select name="Operacion" id="Op">
@@ -17,29 +17,29 @@
             <option value="*">Multiplicar</option>
         </select>
         <button id="resultado" onclick="realizar()">=</button>
-        <h1 id="result"></h1>
+        <h1 id="result"></h1> 
     </section>
     <section class="realizar 2">
         <h1 id="num"></h1>
         <div>
-            <button onclick="realizar2(1)">1</button>
-            <button onclick="realizar2(2)">2</button>
-            <button onclick="realizar2(3)">3</button>
-            <button onclick="realizar2('<=')"><=</button>
+            <button onclick="realizar2('1')">1</button>
+            <button onclick="realizar2('2')">2</button>
+            <button onclick="realizar2('3')">3</button>
+            <button onclick="realizar2('DEL')">DEL</button>
         </div>
         <div>
-            <button onclick="realizar2(4)">4</button>
-            <button onclick="realizar2(5)">5</button>
-            <button onclick="realizar2(6)">6</button>
+            <button onclick="realizar2('4')">4</button>
+            <button onclick="realizar2('5')">5</button>
+            <button onclick="realizar2('6')">6</button>
         </div>
         <div>
-            <button onclick="realizar2(7)">7</button>
-            <button onclick="realizar2(8)">8</button>
-            <button onclick="realizar2(9)">9</button>
+            <button onclick="realizar2('7')">7</button>
+            <button onclick="realizar2('8')">8</button>
+            <button onclick="realizar2('9')">9</button>
         </div>
         <div>
             <button onclick="realizar2('M-')">M-</button>
-            <button onclick="realizar2(0)">0</button>
+            <button onclick="realizar2('0')">0</button>
             <button onclick="realizar2('=')">=</button>
             <button onclick="realizar2('M+')">M+</button>
         </div>
